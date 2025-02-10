@@ -1,5 +1,5 @@
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=120&text=ESTSOFT 부트캠프&animation=fadeIn&fontColor=000000&fontSize=60" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=random&height=120&text=이스트소프트%20부트캠프🙂&animation=fadeIn&fontColor=000000&fontSize=60" />
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 안녕하세요 </h2>  
