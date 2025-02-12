@@ -9,17 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("SwiftUI 실습!")
-            .font(.largeTitle)
-            .foregroundStyle(.red)
-            .background(Color.yellow)
-            .padding(10)
-            .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.blue, lineWidth: 3))
-            .padding(10)
-            
+        VStack {
+            StyleTextView()
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, World!")
+        }
+        .padding()
+        
+        Button("확인") {
+            test()
+        }
+    }
+    
+    func test() {
+        print("JSON 데이터의 변환 예제")
     }
 }
-
 #Preview {
     ContentView()
 }
