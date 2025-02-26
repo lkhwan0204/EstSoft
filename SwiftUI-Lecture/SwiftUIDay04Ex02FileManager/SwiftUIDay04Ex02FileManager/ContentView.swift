@@ -12,7 +12,9 @@ struct ContentView: View {
                     Text("나이: (user.age)")
                 }
             }
-            Button("저장하기") {
+            Button("데이터 저장") {
+                .padding()
+                .background(Color.blue)
                 saveSampleUsers()
             }
             Button("불러오기") {
